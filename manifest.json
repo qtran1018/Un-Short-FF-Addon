@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Un-Short",
+  "version": "1.0",
+
+  "description": "Edits Youtube Shorts URL to play in the regular player.",
+
+  "icons": {
+    "48": "icons/icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/shorts/*"],
+      "js": ["un-short.js"]
+    }
+  ]
+}
