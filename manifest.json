@@ -3,7 +3,7 @@
   "name": "Un-Short",
   "version": "1.0",
 
-  "description": "Edits Youtube Shorts URL to play in the regular player.",
+  "description": "Edits Youtube Shorts URL to play in the regular player by replacing 'shorts' in the URL with 'watch'.",
 
   "icons": {
     "48": "icons/icon.png"
